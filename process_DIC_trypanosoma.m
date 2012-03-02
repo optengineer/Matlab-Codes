@@ -1,4 +1,3 @@
-% clear all;
 clc
 
 fileName = '+dox1_w3DICIIIcube_s4.stk';
