@@ -1,5 +1,8 @@
 clc
 
+% added 2 lines - one here
+
+
 fileName = '+dox1_w3DICIIIcube_s4.stk';
 [stack, nbImages] = tiffread2(fileName);
 
@@ -19,6 +22,8 @@ c = b > 0.9;
 L = bwlabel(c,4);
 
 imshow(label2rgb(L));
+
+% and one here
 
 dic_rgb = cat(3,dic,dic,dic);
 dic_rgb = dic_rgb + L;
